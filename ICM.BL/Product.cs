@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ICM.Common;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ICM.BL
 {
-    public class Product
+    public class Product : EntityBase ,ILoggabale
     {
         public Product()
         {
@@ -25,11 +26,20 @@ namespace ICM.BL
         public int? InterestRate { get; set; }
         public int? SalePrice { get; set; }
 
+
+
+        public string Log() =>
+              $"{ProductId}: {ProductName} Detail: {ProductDescription} Status: {EntityState.ToString()}";
+
+
+        public override string ToString() => ProductName;
+
+
         /// <summary>
         /// Validate the Product data.
         /// </summary>
         /// <returns></returns>
-        public bool Validate()
+        public override bool Validate()
         {
             var isValid = true;
 

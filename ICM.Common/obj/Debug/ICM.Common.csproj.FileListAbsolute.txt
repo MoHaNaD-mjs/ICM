@@ -1,0 +1,6 @@
+C:\Users\s1a\source\repos\ICM\ICM.Common\bin\Debug\ICM.Common.dll
+C:\Users\s1a\source\repos\ICM\ICM.Common\bin\Debug\ICM.Common.pdb
+C:\Users\s1a\source\repos\ICM\ICM.Common\obj\Debug\ICM.Common.csprojAssemblyReference.cache
+C:\Users\s1a\source\repos\ICM\ICM.Common\obj\Debug\ICM.Common.csproj.CoreCompileInputs.cache
+C:\Users\s1a\source\repos\ICM\ICM.Common\obj\Debug\ICM.Common.dll
+C:\Users\s1a\source\repos\ICM\ICM.Common\obj\Debug\ICM.Common.pdb

@@ -1,5 +1,6 @@
 ﻿
 
+using ICM.Common;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace ICM.BL
 {
-    public class Customer
+    public class Customer : EntityBase , ILoggabale
     {
         public Customer():this(0)
         {
@@ -58,11 +59,17 @@ namespace ICM.BL
           }
 
 
+
+        public string Log() => $"{CustomerID}: {FullName} Email: {EmailAddress} Status: {EntityState.ToString()} " +
+            $"paymentsStatements {paymentsStatements.ToList()}";
+
+
+        public override string ToString() => FirstName;
         /// <summary>
         /// Validates the customer data.
         /// </summary>
         /// <returns></returns>
-        public bool Validate()
+        public override bool Validate()
         {
             var isValid = true;
 

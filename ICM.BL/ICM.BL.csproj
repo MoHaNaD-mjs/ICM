@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="Customer.cs" />
     <Compile Include="CustomerRepository.cs" />
+    <Compile Include="EntityBase.cs" />
     <Compile Include="Order.cs" />
     <Compile Include="OrderItem.cs" />
     <Compile Include="OrderRepository.cs" />
@@ -52,6 +53,12 @@
     <Compile Include="ProductRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TypeOfInstallment.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ICM.Common\ICM.Common.csproj">
+      <Project>{d44cd8b9-2501-4347-b71f-8ea6bad3a3f7}</Project>
+      <Name>ICM.Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

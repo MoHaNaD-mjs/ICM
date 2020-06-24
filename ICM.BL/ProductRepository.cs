@@ -24,6 +24,9 @@ namespace ICM.BL
                 product.InterestRate = 50;
                 product.SalePrice = 4500;
             }
+            Object mybject = new object();
+            Console.WriteLine($"Object: {mybject.ToString()}");
+            Console.WriteLine($"Product: {product.ToString()}");
             return product;
         }
 
@@ -44,7 +47,26 @@ namespace ICM.BL
         /// <returns></returns>
         public bool Save(Product product)
         {
-            return true;
+            var success = true;
+            if (product.HasChanges) 
+            {
+                if (product.IsValid)
+                {
+                    if (product.IsNew)
+                    {
+                        //Call an Insert Stored Procedure
+                    }
+                    else
+                    {
+                        // Call an Update Stored Procdure
+                    }
+                }
+                else 
+                {
+                    success = false;
+                }
+            }
+            return success;
         }
         
     }

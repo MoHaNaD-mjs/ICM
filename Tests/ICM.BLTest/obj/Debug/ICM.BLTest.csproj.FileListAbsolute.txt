@@ -14,3 +14,5 @@ C:\Users\s1a\source\repos\ICM\Tests\ICM.BLTest\obj\Debug\ICM.BLTest.csproj.CoreC
 C:\Users\s1a\source\repos\ICM\Tests\ICM.BLTest\obj\Debug\ICM.BLTest.csproj.CopyComplete
 C:\Users\s1a\source\repos\ICM\Tests\ICM.BLTest\obj\Debug\ICM.BLTest.dll
 C:\Users\s1a\source\repos\ICM\Tests\ICM.BLTest\obj\Debug\ICM.BLTest.pdb
+C:\Users\s1a\source\repos\ICM\Tests\ICM.BLTest\bin\Debug\ICM.Common.dll
+C:\Users\s1a\source\repos\ICM\Tests\ICM.BLTest\bin\Debug\ICM.Common.pdb

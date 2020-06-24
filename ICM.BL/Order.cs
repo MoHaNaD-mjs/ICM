@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ICM.BL
 {
-    public class Order
+    public class Order :EntityBase
     {
         public Order():this(0)
         {
@@ -25,11 +25,19 @@ namespace ICM.BL
 
 
 
+        public string Log() =>
+            $"{OrderId}: Date: {this.OrderDate.Value.Date} Status: {this.EntityState.ToString()}";
+
+
+        public override string ToString() => 
+            $"{OrderDate.Value.Date} ({OrderId})";
+
+
         // <summary>
         // Validate the Product data.
         // </summary>
         // <returns></returns>
-        public bool Validate()
+        public  override bool Validate()
         {
             var isValid = true;
 

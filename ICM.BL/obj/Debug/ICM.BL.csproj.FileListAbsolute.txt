@@ -4,3 +4,6 @@ C:\Users\s1a\source\repos\ICM\ICM.BL\obj\Debug\ICM.BL.csprojAssemblyReference.ca
 C:\Users\s1a\source\repos\ICM\ICM.BL\obj\Debug\ICM.BL.csproj.CoreCompileInputs.cache
 C:\Users\s1a\source\repos\ICM\ICM.BL\obj\Debug\ICM.BL.dll
 C:\Users\s1a\source\repos\ICM\ICM.BL\obj\Debug\ICM.BL.pdb
+C:\Users\s1a\source\repos\ICM\ICM.BL\bin\Debug\ICM.Common.dll
+C:\Users\s1a\source\repos\ICM\ICM.BL\bin\Debug\ICM.Common.pdb
+C:\Users\s1a\source\repos\ICM\ICM.BL\obj\Debug\ICM.BL.csproj.CopyComplete
